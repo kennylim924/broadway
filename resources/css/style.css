@@ -1,0 +1,19 @@
+html {
+  text-align: center;
+  font-family: Helvetica;
+}
+
+li, a {
+  list-style: none;
+  font-size: 18px;
+  color: #fff;
+}
+
+h1 {
+  font-size: 70px;
+}
+
+.main {
+    background-image: url(file:///Users/kennylim/Documents/projects/broadway/resources/images/the-flatiron-building.png);
+    color: #fff;
+}
