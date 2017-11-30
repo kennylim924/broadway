@@ -1,19 +1,64 @@
-html {
+/* Elements */
+
+html, p {
   text-align: center;
   font-family: Helvetica;
+  font-size: 14px;
+}
+
+ul {
+  margin-right: 40px;
 }
 
 li, a {
   list-style: none;
   font-size: 18px;
   color: #fff;
+  margin-top: inherit;
 }
 
 h1 {
   font-size: 70px;
+  font-weight: bold;
 }
+
+h2 {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 23px;
+  font-weight: bold;
+}
+
+/* Classes */
 
 .main {
     background-image: url(file:///Users/kennylim/Documents/projects/broadway/resources/images/the-flatiron-building.png);
     color: #fff;
+}
+
+.footer {
+  background-color: gray;
+  color: #fff;
+  text-align: left;
+}
+
+.footer p {
+  font-size: 11px;
+  text-align: left;
+  float: left;
+  padding-right: 5px;
+}
+
+.footer li {
+  display: inline;
+}
+
+/* IDs */
+
+#design {
+  background-image: url(file:///Users/kennylim/Documents/projects/broadway/resources/images/the-flatiron-building.png);
+  color: #fff;
 }
