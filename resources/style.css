@@ -35,7 +35,7 @@ h3 {
 /* Classes */
 
 .main {
-    background-image: url(resources/images/the-flatiron-building.png);
+    background-image: url(images/flatiron.png);
     color: #fff;
 }
 
@@ -59,6 +59,6 @@ h3 {
 /* IDs */
 
 #design {
-  background-image: url(resources/images/the-flatiron-building.png);
+  background-image: url(images/flatiron.png);
   color: #fff;
 }
